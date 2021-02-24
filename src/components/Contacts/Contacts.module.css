@@ -1,0 +1,36 @@
+.list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 5px 15px 5px 15px;
+
+  /* border: 1px solid; */
+  background-color: rgb(240, 206, 97);
+  border-radius: 5px;
+  box-shadow: -5px -5px 5px -5px rgba(80, 71, 34, 0.6);
+}
+
+.button {
+  margin-left: 10px;
+  width: 60px;
+  height: 20px;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(219, 95, 95);
+  cursor: pointer;
+}
+
+.item-enter {
+  opacity: 0;
+}
+
+.item-enter-active {
+  opacity: 1;
+  transition: opacity 500ms linear;
+}

@@ -1,0 +1,65 @@
+.star {
+  font-size: 14px;
+  color: red;
+}
+
+.rule {
+  font-size: 10px;
+
+}
+
+.form {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.label {
+  display: block;
+}
+
+.input {
+  display: block;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 10px;
+
+  border-style: solid;
+  border-radius: 5px;
+  outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.button {
+  display: block;
+  width: 100px;
+  margin: 10px 45px 10px auto;
+  padding: 5px;
+  font-size: 16px;
+  color: #413a3a;
+
+  background-color: #4493fc;
+  border-radius: 5px;
+  border-color: #413a3a;
+  outline: none;
+}
+
+.button:active {
+  background-color: #4493fc;
+
+  transform: scale(0.95);
+}
+
+button[disabled] {
+  background-color: #dfe3e7;
+}
+
+button[disabled]:hover {
+  background-color: #dfe3e7;
+}
+
